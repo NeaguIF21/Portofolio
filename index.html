@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Neagu Ionut - Portofolio</title>
+    <!-- ---Fonts--- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <!-- ---CSS--- -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
@@ -22,8 +28,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="index.css" />
+
   </head>
   <body class="">
+    <!-- --Navigation-- -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container main-navbar">
         <a class="navbar-brand" href="#">Portofolio</a>
@@ -52,7 +60,7 @@
       </div>
     </nav>
 
-    <!-- //intro -->
+    <!-- --Intro -->
     <section class="container" id="intro">
       <div class="row">
         <div class="col-md-6 align-self-md-end text-end">
@@ -70,7 +78,7 @@
       </div>
     </section>
 
-    <!-- //services -->
+    <!-- --Services-- -->
     <section class="container pt-3 mt-5" id="services">
       <h2 class="second-color">What can i do?</h2>
       <div class="row py-3 text-lg-center">
@@ -96,7 +104,6 @@
         </div>
         <div class="col-lg-4 rounded-3 shadow mb-3 rounded">
           <h4 class="mb-3 main-color">Testing</h4>
-
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
             soluta nostrum consectetur architecto? Eius, facilis praesentium
@@ -107,13 +114,43 @@
       </div>
     </section>
 
-    <!-- //Project -->
+    <!-- //Projects -->
     <section class="bg-white text-black project-section">
       <div class="container py-3 text-center">
         <h3 class="second-color">Projects</h3>
         <div class="row">
           <div class="loader"></div>
           <div>In progress...</div>
+          <div class="col-lg-4">
+            <div class="card-body">
+              <img class="card-img-top mb-3" src="./img/projects-background.jpg" alt="Card image cap">
+
+              <h5 class="card-title">Nutrition</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link project-button">Show Demo</a>
+              <a href="#" class="card-link project-button">Show Code</a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card-body">
+              <img class="card-img-top  mb-3" src="./img/projects-background.jpg" alt="Card image cap">
+
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link project-button">Show Demo</a>
+              <a href="#" class="card-link project-button">Show Code</a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card-body">
+              <img class="card-img-top  mb-3" src="./img/projects-background.jpg" alt="Card image cap">
+
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link project-button">Show Demo</a>
+              <a href="#" class="card-link project-button">Show Code</a>
+            </div>
+          </div>
           <!-- //Acordeaon -->
           <!-- <div class="accordion mt-3" id="accordionExample">
             <div class="accordion-item">
@@ -232,7 +269,59 @@
       </div>
     </section>
 
-    <!-- //contact -->
+    <!-- Skills-->
+    <section class="container mt-5">
+      <h2 class="second-color">My skills</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <h4>Experience as a junior Front end</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolores corporis provident suscipit iusto culpa et aperiam itaque maiores corrupti, quo eum minima dolorem eveniet quibusdam dolor sapiente voluptas quas.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <div class="bars">
+            <div class="info">
+              <span>HTML</span>
+              <span>90%</span>
+            </div>
+            <div class="line html"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>Css & Sass</span>
+              <span>80%</span>
+            </div>
+            <div class="line css"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>JavaScript & React.js</span>
+              <span>68%</span>
+            </div>
+            <div class="line javascript"></div>
+            
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>Bootstrap</span>
+              <span>75%</span>
+            </div>
+            <div class="line bootstrap"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>Design</span>
+              <span>77%</span>
+            </div>
+            <div class="line design"></div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--Contact -->
     <section class="container mt-5" id="contact">
       <div class="row">
         <div class="col-lg-6 mb-3">
@@ -319,6 +408,7 @@
       </div>
     </section>
 
+    <!-- Footer -->
     <div class="footer-dark bg-dark mt-5">
       <footer>
         <div class="container">

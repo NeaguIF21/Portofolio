@@ -10,13 +10,17 @@
 body{
     color:#a1a1a8;
     background-color: #333;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Open Sans', sans-serif;
     
-} 
+}
 
 #intro{
   margin-top: 100px;
 }
 
+
+/* colors */
 .main-color {
   color:#bd9262;
 }
@@ -26,9 +30,11 @@ body{
 }
 
 .third-color {
-  color:#3092df
+  color:#3092df;
 }
 
+
+/* my buttons */
 .btn-contact{
     
     color:white;
@@ -45,6 +51,18 @@ body{
     border:solid 1px #bd9262;
 
 }
+
+.project-button{
+  text-decoration: none;
+  color:#bd9262;
+}
+
+.project-button:hover{
+  color:#3092df;
+  
+}
+
+
 
 /* projects */
 
@@ -64,18 +82,13 @@ box-shadow: inset 1px 2px 13px 2px rgba(0,0,0,0.94);
   animation: spin 2s linear infinite;
 }
 
-/* Safari */
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
 
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
 
-
+/* contact */
 .direct-contact {
   text-decoration: none;
   color:#3092df;
@@ -96,14 +109,60 @@ box-shadow: inset 1px 2px 13px 2px rgba(0,0,0,0.94);
   box-shadow: 0 0 0 0.25rem rgb(189, 146, 98 / 25%);
 }
 
-
-
-
 .accordion-button:not(.collapsed) {
   background-color: #bd9262;
   color:black;
   box-shadow: 0 0 0 0.25rem rgb(189, 146, 98 / 25%);
 }
+
+
+/* my skills */
+.bars {
+  margin-bottom: 15px;
+
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bars span{
+  font-size:15px;
+  font-weight: 500;
+
+}
+
+.bars .line {
+  height: 2px;
+  width: 100%;
+  background-color: lightgray;
+  position:relative
+}
+.bars .line::before{
+  content:"";
+  position: absolute;
+  height: 100%;
+  left:0;
+  top:0;
+  background-color: #ff3e17
+}
+.bars .html::before{
+  width: 90%;
+}
+.bars .css::before{
+  width: 75%;
+}
+.bars .javascript::before{
+  width: 68%;
+}
+.bars .bootstrap::before{
+  width: 75%;
+}
+.bars .design::before{
+  width: 77%;
+}
+
+
 
 /* footer */
 .footer-dark {

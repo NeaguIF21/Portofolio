@@ -1,6 +1,6 @@
 console.log("hello there")
 
-//animation script 
+//animation typing script 
 var typed = new Typed(".typing",{
     strings:["design","web development","travel","create content","photograhy"],
     typeSpeed:100,
@@ -8,8 +8,8 @@ var typed = new Typed(".typing",{
     loop:true
 })
 
+//contact form submit
 let submitBtn = document.querySelector(".submit-button");
-
 submitBtn.addEventListener("click",function(e){
     console.log("Clicked")
     e.preventDefault();
