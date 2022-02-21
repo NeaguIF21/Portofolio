@@ -2,10 +2,10 @@ console.log("hello there")
 
 //animation typing script 
 var typed = new Typed(".typing",{
-    strings:["design","web development","travel","create content","photograhy"],
+    strings:["design","fotografie","calatorie","creare continut","stil de viata sanatos"],
     typeSpeed:100,
     backSpeed:60,
-    loop:true
+    loop:true,
 })
 
 //contact form submit
