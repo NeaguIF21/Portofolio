@@ -32,34 +32,27 @@
   </head>
   <body class="">
     <!-- --Navigation-- -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container main-navbar">
-        <a class="navbar-brand" href="#">Portofolio</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNavAltMarkup"
-        >
-          <div class="navbar-nav">
-            <a class="nav-link" href="#">Acasa</a>
-            <a class="nav-link" href="#">Despre</a>
-            <a class="nav-link" href="#">Proiecte</a>
-            <a class="nav-link" href="#contact">Contact</a>
-          </div>
-        </div>
+    <div class="bg-dark fixed-top" id="navbar">
+    <nav class="container navbar">
+      <div class="nav-brand">
+          Portofoliu.
       </div>
-    </nav>
+      <div id="nav-icon4">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      <div class="navbar-links">
+          <ul>
+              <li><a href="#"> Acasa</a></li>
+              <li><a href="#services"> Despre </a></li>
+              <li><a href="#projects"> Proiecte</a></li>
+              <li><a href="#contact"> Contact</a></li>
+          </ul>
 
+      </div>
+  </nav>
+</div>
     <!-- --Intro -->
     <section class="container" id="intro">
       <div class="row">
@@ -114,34 +107,33 @@
 
     <!-- --Services-- -->
     <section class="container pt-3 mt-5" id="services">
-      <h2 class="second-color">Ce stiu sa fac?</h2>
+      <h2 class="second-color">Cum te pot ajuta?</h2>
       <div class="row py-3 text-lg-center">
         <div class="col-lg-4 rounded-3 shadow mb-3 rounded">
           <h4 class="mb-3 main-color">Site-uri web</h4>
 
           <p>
-            Un site web trebuie sa aiba un design impecabil cu accent pe UX,UI, sa fie gandit la inceput pentru mobil deoarece majoritatea utilizatorilor
-            folosesc un telefon, si facut cu wordpress
+            Un site web cu un design atragator si modern, cu accent pe UX / UI, responsive, facut de la 0 prin cod si diverse framework-uri cat si in platforme speciale precum  Wordpress/PrestaShop.
           </p>
         </div>
         <div class="col-lg-4 rounded-3 shadow mb-3 rounded">
-          <h4 class="mb-3 main-color">Creare continut</h4>
+          <h4 class="mb-3 main-color">Social Media</h4>
 
           <p>
-            Creearea postarilor pentru social media, prin editarea pozelor in Photoshop, folosirea unui text 
+            Pregatirea unui postari pentru social media prin editarea pozelor in Photoshop, research privind SEO si scrierea unui text cu un impact pozitiv.
           </p>
         </div>
         <div class="col-lg-4 rounded-3 shadow mb-3 rounded">
           <h4 class="mb-3 main-color">Asigurarea calității</h4>
           <p>
-            Cand vine vorba de asigurarea calitatii trebuie sa te gandesc la orice aspect care poate strica functionalitatea
+            Testarea unei aplicatii privind functionalitate(corner cases) cat si aspectul, astfel incat utilizatorul sa nu intampine nicio dificultate in utilizarea acesteia.
           </p>
         </div>
       </div>
     </section>
 
     <!-- //Projects -->
-    <section class="bg-white text-black project-section">
+    <section class="bg-white text-black project-section" id="projects">
       <div class="container py-3 text-center">
         <h3 class="second-color">Proiecte</h3>
         <div class="row">
@@ -149,30 +141,30 @@
           <div>In progress...</div>
           <div class="col-lg-4">
             <div class="card-body">
-              <img class="card-img-top mb-3" src="./img/projects-background.jpg" alt="Card image cap">
+              <img class="card-img-top mb-3" src="./img/project1.png" alt="Card image cap">
 
               <h5 class="card-title">Nutritionist Diana</h5>
-              <p class="card-text">Un site facut in wordpress legat de sanate si echilibru intr-o alimentatie, in care structura, textul, pozele au fost gandite alaturi de client</p>
+              <p class="card-text">Un site facut de la 0,legat de sanate si echilibru intr-o alimentatie, in care structura, textul, pozele au fost gandite alaturi de client</p>
               <a href="#" class="card-link project-button">Vezi Demo</a>
               <a href="#" class="card-link project-button">Vezi Codul</a>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="card-body">
-              <img class="card-img-top  mb-3" src="./img/projects-background.jpg" alt="Card image cap">
+              <img class="card-img-top  mb-3" src="./img/project1.png" alt="Card image cap">
 
-              <h5 class="card-title">Mini Games</h5>
-              <p class="card-text">Cate jocuri in care sa-ti pierzi nitel timp cand te plictisesti, un pic proiect la care am dobandit noi cunostinte de JavaScript</p>
+              <h5 class="card-title">Mini Apps</h5>
+              <p class="card-text">Cateva mici aplicatii in care am exersat JS pentru a aduce si mai multa functionalitate pe o pagina web</p>
               <a href="#" class="card-link project-button">Vezi Demo</a>
               <a href="#" class="card-link project-button">Vezi Codul</a>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="card-body">
-              <img class="card-img-top  mb-3" src="./img/projects-background.jpg" alt="Card image cap">
+              <img class="card-img-top  mb-3" src="./img/project1.png" alt="Card image cap">
 
               <h5 class="card-title">MERN Aplication</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">O aplicatie full-stack in care poti crea o postare/ editate si modifica</p>
               <a href="#" class="card-link project-button">Show Demo</a>
               <a href="#" class="card-link project-button">Show Code</a>
             </div>
@@ -188,12 +180,17 @@
       <h2 class="second-color">Aptitudinile mele</h2>
       <div class="row">
         <div class="col-lg-6">
-          <h4>Experienta ca un programator web incepator</h4>
+          <h4 >Experienta in IT</h4>
           <p>
-            tutoriale youtube, cursuri online de pe udemy(bootcamp) si Academia te fac programator, freelancing 
+              Partea de social media a fost dobandita in urma colaborarii cu <a href="">Nutritionist Diana</a> in care am facut mult research privind imaginile, textul, continutul.
+          </p>
+          <p>
+            Partea de programare, autodidact cu ajutorul celor de la FreeCodeCamp, anumitor canale de youtube, StackOverFlow, studiu in cadrul Academiei TeFacProgramator si experienta de la locul de munca.
           </p>
         </div>
+
         <div class="col-lg-6">
+          <h4 class="mb-3">Skiluri</h4>
           <div class="bars">
             <div class="info">
               <span>HTML</span>
@@ -225,7 +222,7 @@
           </div>
           <div class="bars">
             <div class="info">
-              <span>Design</span>
+              <span>Design & Social Media</span>
               <span>77%</span>
             </div>
             <div class="line design"></div>
@@ -240,9 +237,9 @@
       <div class="row">
         <div class="col-lg-6 mb-3">
           <div class="mb-2">
-            <h4 class="second-color">Ia legatura cu mine </h4>
+            <h4 class="second-color">Da un semn daca te pot ajuta!</h4>
             <p>
-              Astept cu drag mesajul tau pentru a gasi o solutie nevoilor tale,
+              Astept cu drag mesajul tau, sunt deschis pentru orice colaborare.
             </p>
           </div>
           <div class="mb-2">
@@ -327,9 +324,7 @@
             <div class="col-md-6 item text">
               <h3>Despre mine</h3>
               <p>
-                Majoritatea experientei pe care am dobandit-o a fost invatant singur alaturi de cel mai bun prieten Google,
-                imi place sa ma gandesc la fiecare aspect cand vine vorba de o situatie si sa gasesc cea mai buna rezolvare cu cunostintele pe care le am
-                sa fie cat mai usoara de implementat 
+                Pe scurt, imi place sa vizitez locuri noi, sa surprinde peisaje in poze astfel incat sa aduc in evidenta frumusetea mediului, diverse activitati.
               </p>
             </div>
             <div class="col item social social-icon">
@@ -356,32 +351,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="index.js"></script>
-    <script>
-      let btnUserCalculat = document.querySelector("#userCalculat");
 
-
-btnUserCalculat.addEventListener("click",function(e){
-    // let userKG = parseInt(document.querySelector("#userKG").value);
-    let userInaltime = parseInt(document.querySelector("#userInaltime").value);
-    let userVarsta = parseInt(document.querySelector("#userVarsta").value);
-    let userSex = parseInt(document.querySelector("#userSex").value);
-
-    let showCalcul = document.querySelector("#afterCalcul");
-    console.log( userSex)
-    console.log("Clicked")
-    e.preventDefault();
-    let formula = 0
-    if (userSex == "1") {
-        formula = userInaltime - 100 - [ ((userInaltime - 150)/4) + ((userVarsta-20)/4)]
-    } else 
-    {
-        formula = userInaltime - 100 - [ ((userInaltime - 150)/2.5) + ((userVarsta-20)/6)]
-    }
-    showCalcul.innerHTML = formula
-
-    
-
-})
-    </script>
   </body>
 </html>
